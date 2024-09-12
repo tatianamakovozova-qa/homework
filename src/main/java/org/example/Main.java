@@ -6,8 +6,7 @@ import org.example.homework3.Dot;
 import org.example.homework4.Clock;
 import org.example.homework5.Car;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
         Book book1 = new Book();
