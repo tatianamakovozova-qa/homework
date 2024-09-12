@@ -1,6 +1,6 @@
 package org.example.homework1;
 
-public class Book {
+public class Book implements Displayable {
     private String name;
     private String author;
     private int year;
@@ -23,6 +23,14 @@ public class Book {
     }
 
     public int getYear() {
-        return year;
+        return this.year;
+    }
+
+    @Override
+    public void display() {
+        System.out.println("Название книги " + this.name);
+        System.out.println("Автор книги " + this.author);
+        System.out.println("Год выпуска " + this.year);
+        System.out.println();
     }
 }
